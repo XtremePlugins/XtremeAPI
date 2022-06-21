@@ -6,6 +6,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import org.spongepowered.configurate.CommentedConfigurationNode;
 import org.spongepowered.configurate.hocon.HoconConfigurationLoader;
 import org.spongepowered.configurate.loader.ConfigurationLoader;
+import red.xtreme.api.spigot.bStats.Metrics;
 
 import java.io.File;
 import java.io.IOException;
@@ -25,6 +26,11 @@ public class Main extends JavaPlugin {
             registerConfigFiles();
         } catch (IOException e) {
             throw new RuntimeException(e);
+        }
+
+        if(settings.node("metrics").getBoolean()) {
+            int pluginId = 15535;
+            Metrics metrics = new Metrics(this, pluginId);
         }
 
         Bukkit.getConsoleSender().sendMessage(ChatColor.GREEN + "__  ___                              _    ____ ___");
