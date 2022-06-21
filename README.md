@@ -44,6 +44,6 @@ To install the library using gradle use:
 	}
   
 	dependencies {
-		implementation 'com.github.User:Repo:Tag'
+		implementation 'com.github.XtremePlugins:XtremeAPI:1.0.1'
 	}
 ```
