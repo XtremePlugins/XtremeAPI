@@ -30,7 +30,7 @@ To install the library using maven use:
         <dependency>
             <groupId>com.github.XtremePlugins</groupId>
             <artifactId>XtremeAPI</artifactId>
-            <version>1.0.0</version>
+            <version>1.0.1</version>
         </dependency>
     </dependencies>
 ```
