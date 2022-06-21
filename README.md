@@ -5,11 +5,10 @@ It also includes a collection of external libraries useful for development.
 
 ## Features already added
 
-- Work in progress
+- [External library] [Configurate](https://github.com/SpongePowered/Configurate).
 
 ## Planned features
 
-- [External library] [Configurate](https://github.com/SpongePowered/Configurate).
 - ActionBar
 - Clickable & hoverable messages
 - Titles & subtitles

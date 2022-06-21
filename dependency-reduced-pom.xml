@@ -19,9 +19,11 @@
             <configuration>
               <artifactSet>
                 <includes>
+                  <include>org.spongepowered:configurate-core</include>
                   <include>org.spongepowered:configurate-hocon</include>
-                  <include>org.spongepowered:configurate-core</include>
-                  <include>org.spongepowered:configurate-core</include>
+                  <include>org.spongepowered:configurate-gson</include>
+                  <include>org.spongepowered:configurate-yaml</include>
+                  <include>org.spongepowered:configurate-xml</include>
                   <include>io.leangen.geantyref:geantyref</include>
                   <include>com.typesafe:config</include>
                 </includes>
